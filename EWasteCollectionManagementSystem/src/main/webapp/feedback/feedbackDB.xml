@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="feedbackDB.xsl"?>
+
+<feedbacks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="feedbackDB.xsd">
+
+    <feedback>
+        <id>1</id>
+        <name>Aastha</name>
+        <email>aastha@gmail.com</email>
+        <rating>5</rating>
+        <category>Collection Service</category>
+        <comment>Excellent service</comment>
+    </feedback>
+
+    <feedback>
+        <id>2</id>
+        <name>Rahul</name>
+        <email>rahul@gmail.com</email>
+        <rating>3</rating>
+        <category>E-Store</category>
+        <comment>Good experience</comment>
+    </feedback>
+
+    <feedback>
+        <id>3</id>
+        <name>Priya</name>
+        <email>priya@gmail.com</email>
+        <rating>4</rating>
+        <category>Customer Support</category>
+        <comment>Very helpful support</comment>
+    </feedback>
+
+    <feedback>
+        <id>4</id>
+        <name>Arjun</name>
+        <email>arjun@gmail.com</email>
+        <rating>2</rating>
+        <category>Website</category>
+        <comment>Website needs improvement</comment>
+    </feedback>
+
+</feedbacks>

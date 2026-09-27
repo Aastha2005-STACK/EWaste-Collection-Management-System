@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ewaste>
+    <item>
+        <type>Mobile</type>
+        <message>Mobile phones contain recyclable metals.</message>
+    </item>
+
+    <item>
+        <type>Laptop</type>
+        <message>Laptops contain reusable electronic parts.</message>
+    </item>
+
+    <item>
+        <type>Battery</type>
+        <message>Batteries must be disposed safely.</message>
+    </item>
+
+    <item>
+        <type>Printer</type>
+        <message>Printers contain recyclable plastic components.</message>
+    </item>
+</ewaste>

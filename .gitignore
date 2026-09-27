@@ -1,0 +1,10 @@
+*.class
+bin/
+target/
+build/
+.env
+.env.*
+!.env.example
+.metadata/
+.DS_Store
+Thumbs.db

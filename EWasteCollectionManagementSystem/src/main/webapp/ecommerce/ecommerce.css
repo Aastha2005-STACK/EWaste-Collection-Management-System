@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#e8f5e9,#f1f8e9);
+    color:#333;
+    min-height:100vh;
+}
+
+/* Header */
+
+header{
+    background:linear-gradient(90deg,#0b8f52,#066b3b);
+    color:white;
+    text-align:center;
+    padding:22px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+header h1{
+    font-size:32px;
+}
+
+header p{
+    margin-top:8px;
+}
+
+nav{
+    margin-top:16px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffe600;
+}
+
+/* Main */
+
+main{
+    width:90%;
+    max-width:1100px;
+    margin:40px auto;
+    min-height:500px;
+}
+
+/* Heading */
+
+h2{
+    text-align:center;
+    color:#0b8f52;
+    margin-bottom:30px;
+}
+
+/* Products */
+
+.product-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.product-card{
+    width:250px;
+    background:white;
+    padding:25px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 6px 18px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-7px);
+}
+
+.product-icon{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.product-card h3{
+    color:#0b8f52;
+    margin:10px 0;
+}
+
+.product-card p{
+    font-size:14px;
+    color:#666;
+    margin-bottom:15px;
+}
+
+/* Buttons */
+
+input[type=submit],
+.btn{
+    display:inline-block;
+    background:#0b8f52;
+    color:white;
+    border:none;
+    padding:11px 22px;
+    border-radius:25px;
+    cursor:pointer;
+    font-weight:bold;
+    text-decoration:none;
+    margin-top:10px;
+}
+
+input[type=submit]:hover,
+.btn:hover{
+    background:#066b3b;
+}
+
+/* Cart */
+
+.cart-box{
+    width:500px;
+    max-width:95%;
+    margin:auto;
+    background:white;
+    padding:35px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 6px 20px rgba(0,0,0,.15);
+}
+
+.empty-cart{
+    font-size:22px;
+    color:#0b8f52;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+/* Form */
+
+.form-card{
+    width:500px;
+    max-width:95%;
+    margin:auto;
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 6px 20px rgba(0,0,0,.15);
+}
+
+label{
+    display:block;
+    width:320px;
+    margin:15px auto 6px;
+    font-weight:bold;
+}
+
+input[type=text],
+input[type=email],
+textarea{
+    display:block;
+    width:320px;
+    margin:auto;
+    padding:10px;
+    border:1px solid #bbb;
+    border-radius:7px;
+    font-size:15px;
+}
+
+textarea{
+    height:80px;
+    resize:none;
+}
+
+input:focus,
+textarea:focus{
+    outline:none;
+    border:2px solid #0b8f52;
+}
+
+.form-card input[type=submit]{
+    display:block;
+    margin:25px auto 0;
+}
+
+/* Success */
+
+.success-box{
+    width:550px;
+    max-width:95%;
+    margin:auto;
+    background:white;
+    padding:45px;
+    text-align:center;
+    border-radius:18px;
+    box-shadow:0 7px 22px rgba(0,0,0,.15);
+}
+
+.success-icon{
+    width:70px;
+    height:70px;
+    line-height:70px;
+    margin:0 auto 20px;
+    border-radius:50%;
+    background:#0b8f52;
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.success-box h2{
+    margin-bottom:15px;
+}
+
+.success-box .btn{
+    margin:10px;
+}
+
+/* Footer */
+
+footer{
+    background:#0b8f52;
+    color:white;
+    text-align:center;
+    padding:22px;
+    margin-top:40px;
+}
+
+/* Mobile */
+
+@media(max-width:600px){
+
+    header h1{
+        font-size:25px;
+    }
+
+    nav a{
+        display:block;
+        margin:8px;
+    }
+
+    label,
+    input[type=text],
+    input[type=email],
+    textarea{
+        width:100%;
+    }
+
+    .form-card,
+    .cart-box,
+    .success-box{
+        width:95%;
+        padding:25px;
+    }
+}

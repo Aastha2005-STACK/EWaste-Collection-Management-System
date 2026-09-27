@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE feedbacks SYSTEM "feedback3.dtd">
+
+<?xml-stylesheet type="text/xsl" href="feedback/feedback3.xsl"?>
+
+<feedbacks>
+
+    <feedback>
+        <name>Aastha</name>
+        <rating>5</rating>
+        <comment>Excellent service.</comment>
+    </feedback>
+
+    <feedback>
+        <name>Rahul</name>
+        <rating>4</rating>
+        <comment>Very good experience.</comment>
+    </feedback>
+
+    <feedback>
+        <name>Priya</name>
+        <rating>3</rating>
+        <comment>Good service.</comment>
+    </feedback>
+
+</feedbacks>
